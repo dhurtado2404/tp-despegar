@@ -1,0 +1,27 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python compilado / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno / secretos (API keys!)
+.env
+.env.local
+
+# Vector DB local (Chroma suele generar una carpeta de persistencia)
+chroma_db/
+*.sqlite3
+
+# Archivos del sistema operativo
+.DS_Store
+
+# Entornos de IDE
+.vscode/
+.idea/
