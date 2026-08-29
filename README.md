@@ -52,7 +52,7 @@ El patrón ReAct intercala pasos de razonamiento y acción:
 ### Setup del entorno
 
 ```bash
-git clone <URL_DEL_REPO>
+git clone https://github.com/dhurtado2404/tp-despegar.git
 cd tp-despegar
 python3 -m venv venv
 source venv/bin/activate   # En Windows: venv\Scripts\activate
